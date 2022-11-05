@@ -13,13 +13,19 @@
       <p>Here we will figure out which Programming language you should learn first! Answer
         the following questions:
       </p>
-      <p>What's your favorite color?</p>
+      <p>Is your favorite color blue?</p>
       <form id="select-form">
         <select id="true1">
-          <option>True</option>
-          <option>False</option>
+          <option value="1">True</option>
+          <option value="2">False</option>
         </select>
-        <button type="submit">Next question</button>
+        <div id="checktrue1" class="hidden">
+          <p>You should start with C+</p>
+        </div>
+        <div id="checkfalse1" class="hidden">
+          <p>Move on to next question</p>
+        </div>
+        <button type="submit">Submit</button>
       </form>
     </div>
   </div>
